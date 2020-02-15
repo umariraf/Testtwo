@@ -18,7 +18,7 @@ public class CssElements {
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	driver.manage().deleteAllCookies();
 	driver.manage().window().maximize();
-	driver.get("http://objectspy.space");
+	driver.get("http://bestbuy.com");
 	
 	Thread.sleep(3000);
 	driver.findElement(By.cssSelector("input#sex-0")).click(); //tagname
